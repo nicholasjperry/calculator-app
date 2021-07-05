@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+.calculator-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 90px;
+  width: 150px;
+  height: 150px;
+  background-color: #808080;
+  border: 3px solid rgb(32, 159, 218);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-output-field {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: end;
+  padding: 15px;
+  width: 250px;
+  height: 15px;
+  background-color: #ffffff;
+  margin: 0;
+  -webkit-appearance: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input-output-field::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.number-container {
+  position: fixed;
+  top: 68%;
+  left: 32.5%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.number-container button {
+  flex: 33.3333%;
+  color: #000000;
+  padding: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.functions-container {
+  position: fixed;
+  top: 68%;
+  left: 81.5%;
+  width: 109px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.functions-container button {
+  flex: 60%;
+  color: #000000;
+  padding: 10px;
+}
+
+.CE-container {
+  position: relative;
+  top: 1%;
+  right: 4%;
+  transform: translate(-50%, -50%)
+}
+
+.CE-button {
+  padding: 18px;
+  width: 62px;
+  background-color: green;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  color: #FFF;
+  background-color: #232323;
+  text-shadow: 
+  0 0 5px #FFF, 
+  0 0 10px #FFF, 
+  0 0 15px #FFF
 }
