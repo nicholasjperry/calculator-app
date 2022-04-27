@@ -44,11 +44,11 @@ function App() {
             <button className="CE-button" onClick={handleClear}>CE</button>
         </div>
         <div className="functions-container">
-          <button name="=" onClick={handleEquals}>=</button>
-          <button name="/" onClick={handleInputButton}>&divide;</button>
-          <button name="*" onClick={handleInputButton}>&times;</button>
-          <button name="-" onClick={handleInputButton}>&ndash;</button>
           <button name="+" onClick={handleInputButton}>+</button>
+          <button name="-" onClick={handleInputButton}>&ndash;</button>
+          <button name="*" onClick={handleInputButton}>&times;</button>
+          <button name="/" onClick={handleInputButton}>&divide;</button>
+          <button name="=" onClick={handleEquals}>=</button>
         </div>
       </div>
     </>
