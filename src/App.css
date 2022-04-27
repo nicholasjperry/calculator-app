@@ -6,8 +6,8 @@
   padding: 90px;
   width: 150px;
   height: 150px;
-  background-color: #808080;
-  border: 3px solid rgb(32, 159, 218);
+  background-color: #a6b992;
+  border: 5px solid #c2d4b1;
 }
 
 .input-output-field {
@@ -76,9 +76,13 @@ button:hover {
 
 .CE-button {
   padding: 18px;
-  width: 62px;
-  background-color: green;
+  width: 195px;
+  background-color: #dd2d00;
   color: white;
+}
+
+.equals-button {
+  background-color: #49a109;
 }
 
 .title {

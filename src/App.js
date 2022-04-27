@@ -48,7 +48,7 @@ function App() {
           <button name="-" onClick={handleInputButton}>&ndash;</button>
           <button name="*" onClick={handleInputButton}>&times;</button>
           <button name="/" onClick={handleInputButton}>&divide;</button>
-          <button name="=" onClick={handleEquals}>=</button>
+          <button className="equals-button" name="=" onClick={handleEquals}>=</button>
         </div>
       </div>
     </>
